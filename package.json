@@ -1,14 +1,20 @@
 {
-  "name": "my-app",
+  "name": "WeatherApp1.0",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "ajv": "^8.12.0",
+    "axios": "^1.2.5",
+    "nth-check": "^2.1.1",
+    "openweather-apis": "^4.4.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-router-dom": "^6.8.0",
     "react-scripts": "5.0.1",
+    "typescript": "^4.9.4",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -34,5 +40,12 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "devDependencies": {
+    "npm-force-resolutions": "0.0.10"
+  },
+  "description": "Workable react app that uses API keys from https://openweathermap.org/ to allow to search weather in any regional area",
+  "main": "index.js",
+  "author": "ngoodman3209@gmail.com",
+  "license": "MIT"
 }

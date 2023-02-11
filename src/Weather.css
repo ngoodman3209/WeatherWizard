@@ -1,0 +1,59 @@
+.weather-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #034358;
+  height: 100vh;
+  padding: 20px;
+  min-height: 100vh;
+  overflow: scroll;
+}
+
+.search-form {
+  display: flex;
+  align-items: center;
+  width: 50%;
+  margin-top: 20px;
+}
+
+input[type="text"] {
+  width: 80%;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-bottom: 2px solid #000;
+  margin-right: 10px;
+}
+
+button[type="submit"] {
+  width: 20%;
+  padding: 10px;
+  font-size: 16px;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+body {
+  background: url('./WeatherWizard.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body {
+  background: url('./WeatherWizard.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 32px;
+  color: #fff;
+  }
